@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Senior Full-Stack & Cloud Solutions Architect Portfolio - Powered by Bootstrap 5 and RESTful Express API">
+  <title>Sharon Sofiya | Senior Full-Stack Engineer Portfolio</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>">
+
+  <!-- Bootstrap 5 CSS (NO Tailwind CSS) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#mainNavbar" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" tabindex="0">
+
+  <!-- ========================================================================= -->
+  <!-- NAVIGATION BAR                                                            -->
+  <!-- ========================================================================= -->
+  <nav id="mainNavbar" class="navbar navbar-expand-xl navbar-custom fixed-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2 fw-bold" href="#home">
+        <span class="d-inline-flex align-items-center justify-content-center bg-primary text-white rounded-3 p-1 shadow-sm" style="width: 32px; height: 32px;">
+          <i class="bi bi-terminal-fill fs-6"></i>
+        </span>
+        <span id="nav-brand-name" class="text-gradient">Sharon Sofiya</span>
+      </a>
+
+      <!-- Right controls for Mobile & Desktop -->
+      <div class="d-flex align-items-center gap-2 order-xl-3">
+        <!-- Theme Switcher -->
+        <button class="btn btn-sm btn-outline-secondary rounded-circle p-2 theme-toggle-btn shadow-sm" type="button" aria-label="Toggle theme" title="Toggle theme">
+          <i class="bi bi-sun-fill text-warning"></i>
+        </button>
+
+        <!-- Admin Login / CMS Button -->
+        <button id="admin-nav-btn" class="btn btn-sm btn-outline-primary shadow-sm" type="button">
+          <i class="bi bi-shield-lock me-1"></i> Admin Login
+        </button>
+
+        <!-- Offcanvas Mobile Toggler -->
+        <button class="navbar-toggler border-0 shadow-none p-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileNavbarOffcanvas" aria-controls="mobileNavbarOffcanvas" aria-label="Toggle navigation">
+          <i class="bi bi-list fs-3"></i>
+        </button>
+      </div>
+
+      <!-- Desktop Nav Links -->
+      <div class="collapse navbar-collapse order-xl-2 justify-content-center" id="navbarDesktopMenu">
+        <ul class="navbar-nav mb-2 mb-xl-0 small">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#certifications">Certs</a></li>
+          <li class="nav-item"><a class="nav-link" href="#achievements">Awards</a></li>
+          <li class="nav-item"><a class="nav-link" href="#github">GitHub</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item">
+            <a class="nav-link text-primary fw-bold" href="/api-docs" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-box-arrow-up-right me-1 small"></i> API Docs
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========================================================================= -->
+  <!-- MOBILE OFFCANVAS MENU                                                     -->
+  <!-- ========================================================================= -->
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="mobileNavbarOffcanvas" aria-labelledby="mobileNavbarOffcanvasLabel">
+    <div class="offcanvas-header border-bottom">
+      <h5 class="offcanvas-title fw-bold text-gradient" id="mobileNavbarOffcanvasLabel">
+        <i class="bi bi-terminal-fill text-primary me-2"></i> Navigation
+      </h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body d-flex flex-column justify-content-between">
+      <ul class="navbar-nav fs-5 gap-2">
+        <li class="nav-item"><a class="nav-link" href="#home" data-bs-dismiss="offcanvas"><i class="bi bi-house-door me-2"></i> Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about" data-bs-dismiss="offcanvas"><i class="bi bi-person me-2"></i> About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills" data-bs-dismiss="offcanvas"><i class="bi bi-gear-wide-connected me-2"></i> Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#experience" data-bs-dismiss="offcanvas"><i class="bi bi-briefcase me-2"></i> Experience</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects" data-bs-dismiss="offcanvas"><i class="bi bi-code-square me-2"></i> Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#education" data-bs-dismiss="offcanvas"><i class="bi bi-mortarboard me-2"></i> Education</a></li>
+        <li class="nav-item"><a class="nav-link" href="#certifications" data-bs-dismiss="offcanvas"><i class="bi bi-patch-check me-2"></i> Certifications</a></li>
+        <li class="nav-item"><a class="nav-link" href="#achievements" data-bs-dismiss="offcanvas"><i class="bi bi-trophy me-2"></i> Achievements</a></li>
+        <li class="nav-item"><a class="nav-link" href="#github" data-bs-dismiss="offcanvas"><i class="bi bi-github me-2"></i> GitHub Telemetry</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact" data-bs-dismiss="offcanvas"><i class="bi bi-envelope me-2"></i> Contact</a></li>
+      </ul>
+      <div class="pt-4 border-top">
+        <a href="/api-docs" target="_blank" class="btn btn-outline-primary w-100 mb-2">
+          <i class="bi bi-file-code me-2"></i> Open Swagger API Docs
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================= -->
+  <!-- 1. HERO SECTION                                                           -->
+  <!-- ========================================================================= -->
+  <section id="home" class="hero-section">
+    <div class="container" id="hero-profile-container">
+      <!-- Dynamically filled by App.loadProfile() -->
+    </div>
+  </section>
+
+  <!-- ========================================================================= -->
+  <!-- 2. ABOUT SECTION                                                          -->
+  <!-- ========================================================================= -->
+  <section id="about" class="py-5 bg-section-alt">
+    <div class="container py-4">
+      <div class="text-center">
+        <h2 class="section-title">About Me</h2>
+        <div class="section-divider"></div>
+        <p class="section-subtitle">A high-level view of my background, engineering philosophy, and architectural focus.</p>
+      </div>
+
+      <div id="about-content-container">
+        <!-- Dynamically filled by App.loadAbout() -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================= -->
+  <!-- 3. SKILLS SECTION                                                         -->
+  <!-- ========================================================================= -->
+  <section id="skills" class="py-5">
+    <div class="container py-4">
+      <div class="text-center">
+        <h2 class="section-title">Technical Proficiencies</h2>
+        <div class="section-divider"></div>
+        <p class="section-subtitle">Battle-tested tools, distributed patterns, and frameworks I use to build scalable products.</p>
+      </div>
+
+      <!-- Skills Category Filter Pills -->
+      <div class="d-flex flex-wrap justify-content-center gap-2 mb-5">
+        <button class="btn btn-outline-secondary filter-btn skill-filter-btn active" data-category="All">All Disciplines</button>
+        <button class="btn btn-outline-secondary filter-btn skill-filter-btn" data-category="Frontend">Frontend</button>
+        <button class="btn btn-outline-secondary filter-btn skill-filter-btn" data-category="Backend">Backend</button>
+        <button class="btn btn-outline-secondary filter-btn skill-filter-btn" data-category="Database">Databases</button>
+        <button class="btn btn-outline-secondary filter-btn skill-filter-btn" data-category="Cloud & DevOps">Cloud & DevOps</button>
+        <button class="btn btn-outline-secondary filter-btn skill-filter-btn" data-category="Tools & Practices">Tools & Security</button>
+      </div>
+
+      <div id="skills-grid-container">
+        <!-- Dynamically filled by App.loadSkills() -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================= -->
+  <!-- 4. EXPERIENCE SECTION                                                     -->
+  <!-- ========================================================================= -->
+  <section id="experience" class="py-5 bg-section-alt">
+    <div class="container py-4">
+      <div class="text-center">
+        <h2 class="section-title">Professional Experience</h2>
+        <div class="section-divider"></div>
+        <p class="section-subtitle">Track record of building software across high-growth startups and enterprise tech companies.</p>
+      </div>
+
+      <div id="experience-timeline-container" class="max-w-900 mx-auto" style="max-width: 900px;">
+        <!-- Dynamically filled by App.loadExperience() -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================= -->
+  <!-- 5. PROJECTS SECTION                                                       -->
+  <!-- ========================================================================= -->
+  <section id="projects" class="py-5">
+    <div class="container py-4">
+      <div class="text-center">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="section-divider"></div>
+        <p class="section-subtitle">Explore a selection of recent cloud platforms, full-stack applications, and AI integrations.</p>
+      </div>
+
+      <!-- Search & Category Filters Row -->
+      <div class="row align-items-center g-3 mb-4">
+        <!-- Category Filter Pills -->
+        <div class="col-lg-7">
+          <div class="d-flex flex-wrap gap-2 justify-content-center justify-content-lg-start">
+            <button class="btn btn-outline-secondary filter-btn project-filter-btn active" data-category="All">All</button>
+            <button class="btn btn-outline-secondary filter-btn project-filter-btn" data-category="Web">Web</button>
+            <button class="btn btn-outline-secondary filter-btn project-filter-btn" data-category="Mobile">Mobile</button>
+            <button class="btn btn-outline-secondary filter-btn project-filter-btn" data-category="AI">AI</button>
+            <button class="btn btn-outline-secondary filter-btn project-filter-btn" data-category="Full Stack">Full Stack</button>
+          </div>
+        </div>
+
+        <!-- Real-Time Project Search -->
+        <div class="col-lg-5">
+          <div class="input-group shadow-sm">
+            <span class="input-group-text bg-body-tertiary border-end-0">
+              <i class="bi bi-search text-muted"></i>
+            </span>
+            <input type="text" id="project-search-input" class="form-control border-start-0" placeholder="Search projects by name, keyword, or tech..." aria-label="Search projects">
+            <button class="btn btn-outline-secondary d-none" type="button" id="project-search-clear-btn" title="Clear search">
+              <i class="bi bi-x-lg"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Projects Grid -->
+      <div id="projects-grid-container" class="mb-5">
+        <!-- Dynamically filled by App.loadProjects() -->
+      </div>
+
+      <!-- Pagination Component -->
+      <div id="projects-pagination-container">
+        <!-- Dynamically filled by App.renderPaginationUI() -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================= -->
+  <!-- 6. EDUCATION SECTION                                                      -->
+  <!-- ========================================================================= -->
+  <section id="education" class="py-5 bg-section-alt">
+    <div class="container py-4">
+      <div class="text-center">
+        <h2 class="section-title">Education & Academics</h2>
+        <div class="section-divider"></div>
+        <p class="section-subtitle">Academic foundations in Computer Systems, Distributed Systems, and Software Engineering.</p>
+      </div>
+
+      <div id="education-container">
+        <!-- Dynamically filled by App.loadEducation() -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================= -->
+  <!-- 7. CERTIFICATIONS SECTION                                                 -->
+  <!-- ========================================================================= -->
+  <section id="certifications" class="py-5">
+    <div class="container py-4">
+      <div class="text-center">
+        <h2 class="section-title">Certifications & Credentials</h2>
+        <div class="section-divider"></div>
+        <p class="section-subtitle">Verified industry credentials in cloud architecture, container management, and databases.</p>
+      </div>
+
+      <div id="certifications-container">
+        <!-- Dynamically filled by App.loadCertifications() -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================= -->
+  <!-- 8. ACHIEVEMENTS SECTION                                                   -->
+  <!-- ========================================================================= -->
+  <section id="achievements" class="py-5 bg-section-alt">
+    <div class="container py-4">
+      <div class="text-center">
+        <h2 class="section-title">Honors & Achievements</h2>
+        <div class="section-divider"></div>
+        <p class="section-subtitle">Hackathon podiums, open source contributions, and published technical articles.</p>
+      </div>
+
+      <div id="achievements-container">
+        <!-- Dynamically filled by App.loadAchievements() -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================= -->
+  <!-- 9. GITHUB TELEMETRY SECTION                                               -->
+  <!-- ========================================================================= -->
+  <section id="github" class="py-5">
+    <div class="container py-4">
+      <div class="text-center">
+        <h2 class="section-title">GitHub Open Source Telemetry</h2>
+        <div class="section-divider"></div>
+        <p class="section-subtitle">Live repository metrics and open source contributions retrieved via REST API.</p>
+      </div>
+
+      <div id="github-container">
+        <!-- Dynamically filled by App.loadGitHub() -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================= -->
+  <!-- 10. CONTACT SECTION                                                       -->
+  <!-- ========================================================================= -->
+  <section id="contact" class="py-5 bg-section-alt">
+    <div class="container py-4">
+      <div class="text-center">
+        <h2 class="section-title">Get in Touch</h2>
+        <div class="section-divider"></div>
+        <p class="section-subtitle">Have an exciting opportunity or project in mind? Send me a message and let's discuss.</p>
+      </div>
+
+      <div class="row g-5">
+        <!-- Contact Information Column -->
+        <div class="col-lg-5">
+          <div class="card border rounded-4 shadow-sm p-4 h-100">
+            <h4 class="fw-bold mb-4">Contact Information</h4>
+            <div class="d-flex align-items-start gap-3 mb-4">
+              <div class="skill-icon-box text-primary">
+                <i class="bi bi-envelope-at-fill"></i>
+              </div>
+              <div>
+                <h6 class="fw-bold mb-1">Email Address</h6>
+                <a href="mailto:sharon.sofiya.dev@example.com" class="text-decoration-none text-body-secondary">sharon.sofiya.dev@example.com</a>
+              </div>
+            </div>
+
+            <div class="d-flex align-items-start gap-3 mb-4">
+              <div class="skill-icon-box text-success">
+                <i class="bi bi-geo-alt-fill"></i>
+              </div>
+              <div>
+                <h6 class="fw-bold mb-1">Primary Location</h6>
+                <div class="text-body-secondary">San Francisco Bay Area, CA (Remote Friendly)</div>
+              </div>
+            </div>
+
+            <div class="d-flex align-items-start gap-3 mb-4">
+              <div class="skill-icon-box text-info">
+                <i class="bi bi-clock-history"></i>
+              </div>
+              <div>
+                <h6 class="fw-bold mb-1">Timezone & Availability</h6>
+                <div class="text-body-secondary">PST / UTC-8 (Available for Worldwide Distributed Teams)</div>
+              </div>
+            </div>
+
+            <div class="mt-auto pt-4 border-top">
+              <h6 class="fw-bold mb-3">Connect Online:</h6>
+              <div id="contact-social-pills" class="d-flex flex-wrap gap-2"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form Column -->
+        <div class="col-lg-7">
+          <div class="card border rounded-4 shadow-sm p-4 p-md-5">
+            <h4 class="fw-bold mb-3">Send a Message</h4>
+            
+            <!-- Dynamic Alert Container for Feedback (Success, Validation, Error) -->
+            <div id="contact-alert-container"></div>
+
+            <form id="contact-form" novalidate>
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <div class="form-floating">
+                    <input type="text" class="form-control" id="contact-name" placeholder="John Doe" required>
+                    <label for="contact-name"><i class="bi bi-person me-1"></i> Full Name *</label>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="form-floating">
+                    <input type="email" class="form-control" id="contact-email" placeholder="john@example.com" required>
+                    <label for="contact-email"><i class="bi bi-envelope me-1"></i> Email Address *</label>
+                  </div>
+                </div>
+
+                <div class="col-12">
+                  <div class="form-floating">
+                    <input type="text" class="form-control" id="contact-subject" placeholder="Project Inquiry" required>
+                    <label for="contact-subject"><i class="bi bi-chat-left-dots me-1"></i> Subject *</label>
+                  </div>
+                </div>
+
+                <div class="col-12">
+                  <div class="form-floating">
+                    <textarea class="form-control" placeholder="Write your message here..." id="contact-message" style="height: 150px" required></textarea>
+                    <label for="contact-message"><i class="bi bi-pencil me-1"></i> Message *</label>
+                  </div>
+                </div>
+
+                <div class="col-12">
+                  <button type="submit" id="contact-submit-btn" class="btn btn-primary btn-lg w-100 shadow-sm py-3 fw-bold">
+                    <i class="bi bi-send-fill me-2"></i> Send Message
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================= -->
+  <!-- FOOTER                                                                    -->
+  <!-- ========================================================================= -->
+  <footer class="py-5">
+    <div class="container">
+      <div class="row align-items-center g-4">
+        <div class="col-md-6 text-center text-md-start">
+          <h5 class="fw-bold mb-1 text-gradient">Sharon Sofiya</h5>
+          <p class="text-secondary small mb-0">Senior Full-Stack & Cloud Architecture Portfolio. Built with Bootstrap 5 and RESTful Express API.</p>
+        </div>
+        <div class="col-md-6 text-center text-md-end">
+          <div id="footer-social-links" class="d-flex justify-content-center justify-content-md-end gap-2 mb-2"></div>
+          <small class="text-muted">&copy; 2026 Sharon Sofiya. All Rights Reserved. Documented with <a href="/api-docs" class="text-primary text-decoration-none">OpenAPI / Swagger</a>.</small>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================================= -->
+  <!-- BACK TO TOP BUTTON                                                        -->
+  <!-- ========================================================================= -->
+  <button id="btn-back-to-top" class="btn btn-primary btn-back-to-top shadow" aria-label="Back to top" title="Back to top">
+    <i class="bi bi-arrow-up fs-5"></i>
+  </button>
+
+  <!-- ========================================================================= -->
+  <!-- MODALS                                                                    -->
+  <!-- ========================================================================= -->
+
+  <!-- 1. Project Details Modal -->
+  <div class="modal fade" id="projectDetailsModal" tabindex="-1" aria-labelledby="projectModalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title fw-bold" id="projectModalTitle">Project Details</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body" id="projectModalBody">
+          <!-- Dynamically populated -->
+        </div>
+        <div class="modal-footer">
+          <a id="projectModalGithubLink" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-outline-secondary">
+            <i class="bi bi-github me-1"></i> GitHub Repo
+          </a>
+          <a id="projectModalLiveLink" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+            <i class="bi bi-box-arrow-up-right me-1"></i> Live Demo
+          </a>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. Resume Overview Modal -->
+  <div class="modal fade" id="resumeModal" tabindex="-1" aria-labelledby="resumeModalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title fw-bold" id="resumeModalTitle"><i class="bi bi-file-earmark-person-fill text-primary me-2"></i>Sharon Sofiya — Curriculum Vitae</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-4">
+          <div class="border-bottom pb-3 mb-3">
+            <h4 class="fw-bold mb-1">Sharon Sofiya</h4>
+            <div class="text-primary fw-semibold mb-2">Senior Full-Stack & Cloud Solutions Architect</div>
+            <p class="small text-muted mb-0">San Francisco, CA • sharon.sofiya.dev@example.com • +1 (555) 234-5678</p>
+          </div>
+          <div class="mb-3">
+            <h6 class="fw-bold text-uppercase text-secondary small">Executive Summary</h6>
+            <p class="small text-body">Software architect with 7+ years delivering scalable cloud solutions, resilient REST microservices, and high-performance reactive web systems with Bootstrap 5 and modern JavaScript.</p>
+          </div>
+          <div class="mb-3">
+            <h6 class="fw-bold text-uppercase text-secondary small">Key Competencies</h6>
+            <div class="d-flex flex-wrap gap-1">
+              <span class="badge bg-secondary-subtle text-secondary">Node.js</span>
+              <span class="badge bg-secondary-subtle text-secondary">Express.js</span>
+              <span class="badge bg-secondary-subtle text-secondary">Bootstrap 5</span>
+              <span class="badge bg-secondary-subtle text-secondary">PostgreSQL</span>
+              <span class="badge bg-secondary-subtle text-secondary">Docker & Kubernetes</span>
+              <span class="badge bg-secondary-subtle text-secondary">OpenAPI / Swagger</span>
+              <span class="badge bg-secondary-subtle text-secondary">AWS Solutions Architect</span>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-outline-primary" onclick="window.print()">
+            <i class="bi bi-printer me-1"></i> Print / Save as PDF
+          </button>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3. Admin Login Modal -->
+  <div class="modal fade" id="adminLoginModal" tabindex="-1" aria-labelledby="adminLoginModalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title fw-bold" id="adminLoginModalTitle"><i class="bi bi-shield-lock-fill text-primary me-2"></i>Admin Authentication</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-4">
+          <div id="admin-login-alert" class="alert alert-danger d-none" role="alert"></div>
+          <p class="text-muted small mb-3">Sign in to manage portfolio content (Projects, Skills, Experience, and Contact Inquiries) dynamically.</p>
+          <form id="admin-login-form">
+            <div class="mb-3">
+              <label for="admin-username-input" class="form-label small fw-semibold">Admin Username</label>
+              <input type="text" class="form-control" id="admin-username-input" value="admin" required>
+            </div>
+            <div class="mb-3">
+              <label for="admin-password-input" class="form-label small fw-semibold">Admin Password</label>
+              <input type="password" class="form-control" id="admin-password-input" value="admin123" required>
+            </div>
+            <div class="text-muted small mb-3">
+              <i class="bi bi-info-circle me-1"></i> Default credentials: <code>admin</code> / <code>admin123</code> (configured in <code>.env</code>)
+            </div>
+            <div class="d-flex justify-content-end gap-2">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+              <button type="submit" id="admin-login-submit-btn" class="btn btn-primary">
+                <i class="bi bi-box-arrow-in-right me-1"></i> Login
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 4. Admin Content Management System (CMS) Modal -->
+  <div class="modal fade" id="adminCmsModal" tabindex="-1" aria-labelledby="adminCmsModalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen-lg-down modal-xl modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header bg-body-tertiary">
+          <div class="d-flex align-items-center gap-2">
+            <span class="badge bg-success"><i class="bi bi-check-circle-fill me-1"></i> Authenticated</span>
+            <h5 class="modal-title fw-bold mb-0" id="adminCmsModalTitle">Portfolio Content Management (CMS)</h5>
+          </div>
+          <div class="d-flex gap-2">
+            <button id="admin-logout-btn" class="btn btn-sm btn-outline-danger">
+              <i class="bi bi-box-arrow-left me-1"></i> Logout
+            </button>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+        </div>
+        <div class="modal-body p-0">
+          <div class="p-3 bg-body-tertiary border-bottom">
+            <ul class="nav nav-pills" id="adminTabs" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="tab-projects-btn" data-bs-toggle="pill" data-bs-target="#tab-projects" type="button" role="tab">
+                  <i class="bi bi-code-square me-1"></i> Projects
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="tab-skills-btn" data-bs-toggle="pill" data-bs-target="#tab-skills" type="button" role="tab">
+                  <i class="bi bi-gear-fill me-1"></i> Skills
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="tab-exp-btn" data-bs-toggle="pill" data-bs-target="#tab-exp" type="button" role="tab">
+                  <i class="bi bi-briefcase-fill me-1"></i> Experience
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="tab-messages-btn" data-bs-toggle="pill" data-bs-target="#tab-messages" type="button" role="tab">
+                  <i class="bi bi-envelope-fill me-1"></i> Inquiries
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="tab-settings-btn" data-bs-toggle="pill" data-bs-target="#tab-settings" type="button" role="tab">
+                  <i class="bi bi-sliders me-1"></i> System
+                </button>
+              </li>
+            </ul>
+          </div>
+
+          <div class="tab-content p-4" id="adminTabsContent">
+            <!-- Projects Tab -->
+            <div class="tab-pane fade show active" id="tab-projects" role="tabpanel">
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                <h5 class="fw-bold mb-0">Projects Directory</h5>
+                <button id="admin-new-project-btn" class="btn btn-sm btn-primary">
+                  <i class="bi bi-plus-lg me-1"></i> Add Project
+                </button>
+              </div>
+              <div class="table-responsive">
+                <table class="table table-hover align-middle border">
+                  <thead class="table-light">
+                    <tr>
+                      <th>Title & ID</th>
+                      <th>Category</th>
+                      <th>Featured</th>
+                      <th>Created</th>
+                      <th class="text-end">Actions</th>
+                    </tr>
+                  </thead>
+                  <tbody id="admin-projects-list">
+                    <!-- Populated dynamically -->
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <!-- Skills Tab -->
+            <div class="tab-pane fade" id="tab-skills" role="tabpanel">
+              <div class="card p-3 mb-4 bg-body-tertiary border">
+                <h6 class="fw-bold mb-3">Add New Skill</h6>
+                <form id="admin-add-skill-form" class="row g-2">
+                  <div class="col-md-4">
+                    <input type="text" id="skill-add-name" class="form-control form-control-sm" placeholder="Skill Name (e.g. GraphQL)" required>
+                  </div>
+                  <div class="col-md-3">
+                    <select id="skill-add-category" class="form-select form-select-sm">
+                      <option value="Frontend">Frontend</option>
+                      <option value="Backend">Backend</option>
+                      <option value="Database">Database</option>
+                      <option value="Cloud & DevOps">Cloud & DevOps</option>
+                      <option value="Tools & Practices">Tools & Practices</option>
+                    </select>
+                  </div>
+                  <div class="col-md-2">
+                    <input type="number" id="skill-add-proficiency" class="form-control form-control-sm" placeholder="Proficiency (0-100)" min="0" max="100" value="85" required>
+                  </div>
+                  <div class="col-md-2">
+                    <input type="text" id="skill-add-icon" class="form-control form-control-sm" placeholder="Icon (bi-code)" value="bi-gear-fill">
+                  </div>
+                  <div class="col-md-1">
+                    <button type="submit" class="btn btn-sm btn-success w-100"><i class="bi bi-plus-lg"></i></button>
+                  </div>
+                </form>
+              </div>
+
+              <h6 class="fw-bold mb-3">Existing Skills</h6>
+              <div class="table-responsive">
+                <table class="table table-hover align-middle border">
+                  <thead class="table-light">
+                    <tr>
+                      <th>Skill</th>
+                      <th>Category</th>
+                      <th>Proficiency</th>
+                      <th class="text-end">Actions</th>
+                    </tr>
+                  </thead>
+                  <tbody id="admin-skills-list"></tbody>
+                </table>
+              </div>
+            </div>
+
+            <!-- Experience Tab -->
+            <div class="tab-pane fade" id="tab-exp" role="tabpanel">
+              <h5 class="fw-bold mb-3">Work History</h5>
+              <div class="table-responsive">
+                <table class="table table-hover align-middle border">
+                  <thead class="table-light">
+                    <tr>
+                      <th>Company</th>
+                      <th>Role</th>
+                      <th>Period</th>
+                      <th class="text-end">Actions</th>
+                    </tr>
+                  </thead>
+                  <tbody id="admin-experience-list"></tbody>
+                </table>
+              </div>
+            </div>
+
+            <!-- Messages Tab -->
+            <div class="tab-pane fade" id="tab-messages" role="tabpanel">
+              <h5 class="fw-bold mb-3">Received Contact Submissions</h5>
+              <div id="admin-messages-list"></div>
+            </div>
+
+            <!-- System Tab -->
+            <div class="tab-pane fade" id="tab-settings" role="tabpanel">
+              <div class="card border p-4">
+                <h5 class="fw-bold text-danger mb-2"><i class="bi bi-exclamation-triangle-fill me-2"></i>Reset Database to Defaults</h5>
+                <p class="text-muted small mb-3">Reset all portfolio records (projects, skills, experience, education, etc.) back to the initial high-quality seed dataset.</p>
+                <div>
+                  <button id="admin-reset-db-btn" class="btn btn-outline-danger">
+                    <i class="bi bi-arrow-counterclockwise me-1"></i> Reset Database to Factory Seeds
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 5. Project Editor Modal (Add / Edit) -->
+  <div class="modal fade" id="projectEditorModal" tabindex="-1" aria-labelledby="projectEditorModalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <form id="project-editor-form">
+          <div class="modal-header">
+            <h5 class="modal-title fw-bold" id="projectEditorModalTitle">Project Editor</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body p-4">
+            <input type="hidden" id="project-form-id">
+            <div class="row g-3">
+              <div class="col-md-8">
+                <label for="project-form-title" class="form-label small fw-semibold">Project Title *</label>
+                <input type="text" class="form-control" id="project-form-title" required>
+              </div>
+              <div class="col-md-4">
+                <label for="project-form-category" class="form-label small fw-semibold">Category *</label>
+                <select class="form-select" id="project-form-category">
+                  <option value="Web">Web</option>
+                  <option value="Mobile">Mobile</option>
+                  <option value="AI">AI</option>
+                  <option value="Full Stack">Full Stack</option>
+                </select>
+              </div>
+              <div class="col-12">
+                <label for="project-form-desc" class="form-label small fw-semibold">Description *</label>
+                <textarea class="form-control" id="project-form-desc" rows="3" required></textarea>
+              </div>
+              <div class="col-md-6">
+                <label for="project-form-tech" class="form-label small fw-semibold">Technologies (comma separated)</label>
+                <input type="text" class="form-control" id="project-form-tech" placeholder="Node.js, Express, Bootstrap 5">
+              </div>
+              <div class="col-md-6">
+                <label for="project-form-image" class="form-label small fw-semibold">Image URL</label>
+                <input type="url" class="form-control" id="project-form-image" placeholder="https://images.unsplash.com/...">
+              </div>
+              <div class="col-md-6">
+                <label for="project-form-github" class="form-label small fw-semibold">GitHub URL</label>
+                <input type="url" class="form-control" id="project-form-github" placeholder="https://github.com/...">
+              </div>
+              <div class="col-md-6">
+                <label for="project-form-live" class="form-label small fw-semibold">Live Demo URL</label>
+                <input type="url" class="form-control" id="project-form-live" placeholder="https://example.com">
+              </div>
+              <div class="col-12">
+                <label for="project-form-features" class="form-label small fw-semibold">Key Features (one per line)</label>
+                <textarea class="form-control" id="project-form-features" rows="3" placeholder="Real-time event streaming&#10;OpenAPI documented REST API"></textarea>
+              </div>
+              <div class="col-12">
+                <div class="form-check form-switch">
+                  <input class="form-check-input" type="checkbox" id="project-form-featured">
+                  <label class="form-check-label" for="project-form-featured">Mark as Featured Project</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+            <button type="submit" id="project-form-submit-btn" class="btn btn-primary">
+              <i class="bi bi-check2 me-1"></i> Save Project
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Container -->
+  <div id="toast-container" class="toast-container position-fixed bottom-0 end-0 p-3" style="z-index: 1090;"></div>
+
+  <!-- ========================================================================= -->
+  <!-- JAVASCRIPT LIBRARIES & SCRIPTS                                            -->
+  <!-- ========================================================================= -->
+  <!-- Bootstrap 5 Bundle JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Application Modules -->
+  <script src="/js/api.js"></script>
+  <script src="/js/theme.js"></script>
+  <script src="/js/admin.js"></script>
+  <script src="/js/app.js"></script>
+</body>
+</html>

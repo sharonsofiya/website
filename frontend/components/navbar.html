@@ -1,0 +1,43 @@
+<!-- Reusable Navbar Component -->
+<nav id="mainNavbar" class="navbar navbar-expand-xl navbar-custom fixed-top">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center gap-2 fw-bold" href="#home">
+      <span class="d-inline-flex align-items-center justify-content-center bg-primary text-white rounded-3 p-1 shadow-sm" style="width: 32px; height: 32px;">
+        <i class="bi bi-terminal-fill fs-6"></i>
+      </span>
+      <span id="nav-brand-name" class="text-gradient">Sharon Sofiya</span>
+    </a>
+
+    <div class="d-flex align-items-center gap-2 order-xl-3">
+      <button class="btn btn-sm btn-outline-secondary rounded-circle p-2 theme-toggle-btn shadow-sm" type="button" aria-label="Toggle theme">
+        <i class="bi bi-sun-fill text-warning"></i>
+      </button>
+      <button id="admin-nav-btn" class="btn btn-sm btn-outline-primary shadow-sm" type="button">
+        <i class="bi bi-shield-lock me-1"></i> Admin Login
+      </button>
+      <button class="navbar-toggler border-0 shadow-none p-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileNavbarOffcanvas">
+        <i class="bi bi-list fs-3"></i>
+      </button>
+    </div>
+
+    <div class="collapse navbar-collapse order-xl-2 justify-content-center" id="navbarDesktopMenu">
+      <ul class="navbar-nav mb-2 mb-xl-0 small">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+        <li class="nav-item"><a class="nav-link" href="#certifications">Certs</a></li>
+        <li class="nav-item"><a class="nav-link" href="#achievements">Awards</a></li>
+        <li class="nav-item"><a class="nav-link" href="#github">GitHub</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        <li class="nav-item">
+          <a class="nav-link text-primary fw-bold" href="/api-docs" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-box-arrow-up-right me-1 small"></i> API Docs
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

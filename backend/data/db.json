@@ -1,0 +1,706 @@
+{
+  "profile": {
+    "id": "profile-main",
+    "name": "Sharon Sofiya",
+    "headline": "Senior Full-Stack & Cloud Solutions Architect",
+    "bioSummary": "Passionate software craftsman with 7+ years of experience building resilient microservices, high-performance web applications, and intuitive AI-driven developer platforms.",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80",
+    "location": "San Francisco, CA (Open to Remote)",
+    "email": "sharon.sofiya.dev@example.com",
+    "phone": "+1 (555) 234-5678",
+    "status": "Available for contract & full-time roles",
+    "resumeUrl": "#resume-modal",
+    "yearsExperience": 7,
+    "completedProjects": 45,
+    "satisfiedClients": 32,
+    "codeCommits": 2840
+  },
+  "about": {
+    "id": "about-main",
+    "title": "Engineering Scalable Systems with Precision & Empathy",
+    "summary": "I bridge the gap between rigorous systems engineering and delightful user experiences.",
+    "paragraphs": [
+      "Hello! I am Sharon Sofiya, a senior full-stack engineer and cloud architect with over seven years of hands-on experience designing, shipping, and scaling web systems. My expertise spans reactive frontend interfaces, high-throughput REST and GraphQL APIs, distributed database architectures, and containerized cloud deployments.",
+      "Throughout my career at high-growth startups and tech enterprises, I have led engineering teams in decomposing monoliths into event-driven microservices, slashed cloud operational costs by 40%, and crafted accessible, design-system-driven web applications loved by millions.",
+      "When I am not coding, I contribute to open-source developer tooling, mentor aspiring developers in coding bootcamps, and write deep-dive architectural analyses on distributed systems."
+    ],
+    "keyHighlights": [
+      "Microservice & Distributed Systems Architecture",
+      "High-Performance REST & GraphQL API Design",
+      "Modern Frontends with Bootstrap 5 & Component Architectures",
+      "Cloud Infrastructure Automation (Docker, Kubernetes, AWS, GCP)",
+      "Test-Driven Development & Continuous Delivery Pipelines"
+    ],
+    "interests": [
+      "Distributed Consensus",
+      "Generative AI & LLM Tooling",
+      "Open Source",
+      "Accessibility (WCAG AA)",
+      "Technical Writing"
+    ],
+    "fastFacts": [
+      {
+        "label": "Primary Language",
+        "value": "JavaScript / TypeScript / Go"
+      },
+      {
+        "label": "Cloud Platforms",
+        "value": "AWS / Google Cloud"
+      },
+      {
+        "label": "Database Specialization",
+        "value": "PostgreSQL / Redis / MongoDB"
+      },
+      {
+        "label": "Architecture Style",
+        "value": "Clean Architecture & Event-Driven"
+      }
+    ]
+  },
+  "skills": [
+    {
+      "id": "skill-1",
+      "name": "JavaScript (ES6+) & TypeScript",
+      "category": "Frontend",
+      "icon": "bi-filetype-js",
+      "proficiency": 95
+    },
+    {
+      "id": "skill-2",
+      "name": "Bootstrap 5 & Responsive UI",
+      "category": "Frontend",
+      "icon": "bi-bootstrap",
+      "proficiency": 95
+    },
+    {
+      "id": "skill-3",
+      "name": "HTML5 Semantic & Web Accessibility",
+      "category": "Frontend",
+      "icon": "bi-filetype-html",
+      "proficiency": 92
+    },
+    {
+      "id": "skill-4",
+      "name": "CSS3 / Modern CSS Architecture",
+      "category": "Frontend",
+      "icon": "bi-filetype-css",
+      "proficiency": 90
+    },
+    {
+      "id": "skill-5",
+      "name": "React.js & State Management",
+      "category": "Frontend",
+      "icon": "bi-code-square",
+      "proficiency": 88
+    },
+    {
+      "id": "skill-6",
+      "name": "Node.js & Express.js",
+      "category": "Backend",
+      "icon": "bi-hdd-network",
+      "proficiency": 95
+    },
+    {
+      "id": "skill-7",
+      "name": "RESTful API Architecture & OpenAPI/Swagger",
+      "category": "Backend",
+      "icon": "bi-diagram-3",
+      "proficiency": 94
+    },
+    {
+      "id": "skill-8",
+      "name": "Microservices & Message Queues (RabbitMQ/Kafka)",
+      "category": "Backend",
+      "icon": "bi-cpu",
+      "proficiency": 85
+    },
+    {
+      "id": "skill-9",
+      "name": "Go (Golang) Microservices",
+      "category": "Backend",
+      "icon": "bi-terminal",
+      "proficiency": 80
+    },
+    {
+      "id": "skill-10",
+      "name": "PostgreSQL & Complex SQL Queries",
+      "category": "Database",
+      "icon": "bi-database",
+      "proficiency": 90
+    },
+    {
+      "id": "skill-11",
+      "name": "MongoDB & Document Databases",
+      "category": "Database",
+      "icon": "bi-database-fill-gear",
+      "proficiency": 88
+    },
+    {
+      "id": "skill-12",
+      "name": "Redis Caching & Session Stores",
+      "category": "Database",
+      "icon": "bi-lightning-charge",
+      "proficiency": 86
+    },
+    {
+      "id": "skill-13",
+      "name": "Docker & Container Orchestration",
+      "category": "Cloud & DevOps",
+      "icon": "bi-box-seam",
+      "proficiency": 90
+    },
+    {
+      "id": "skill-14",
+      "name": "Amazon Web Services (AWS) & GCP",
+      "category": "Cloud & DevOps",
+      "icon": "bi-cloud-check",
+      "proficiency": 88
+    },
+    {
+      "id": "skill-15",
+      "name": "CI/CD Pipelines (GitHub Actions)",
+      "category": "Cloud & DevOps",
+      "icon": "bi-arrow-repeat",
+      "proficiency": 86
+    },
+    {
+      "id": "skill-16",
+      "name": "Git & Collaborative Workflows",
+      "category": "Tools & Practices",
+      "icon": "bi-git",
+      "proficiency": 95
+    },
+    {
+      "id": "skill-17",
+      "name": "Test Automation (Jest, Supertest, Cypress)",
+      "category": "Tools & Practices",
+      "icon": "bi-shield-check",
+      "proficiency": 88
+    },
+    {
+      "id": "skill-18",
+      "name": "API Security & OWASP Standards",
+      "category": "Tools & Practices",
+      "icon": "bi-lock",
+      "proficiency": 92
+    }
+  ],
+  "experience": [
+    {
+      "id": "exp-1",
+      "company": "Apex Cloud Systems",
+      "position": "Lead Full-Stack Solutions Architect",
+      "startDate": "2023-03",
+      "endDate": "Present",
+      "description": "Spearheading engineering efforts on multi-tenant SaaS cloud observability and automated deployment tooling.",
+      "responsibilities": [
+        "Architected distributed REST and gRPC API layer processing over 45M telemetry events daily with 99.99% uptime.",
+        "Led a squad of 8 engineers across frontend (Bootstrap 5/React) and backend (Node.js/Go) microservices.",
+        "Refactored monolithic legacy billing services into an event-driven system with Stripe integration.",
+        "Standardized OpenAPI 3.0 documentation company-wide, cutting API client onboarding time by 60%."
+      ],
+      "achievements": [
+        "Achieved 35% latency reduction across core API endpoints through Redis intelligent caching.",
+        "Awarded Engineering Innovator of the Year 2024."
+      ],
+      "technologies": [
+        "Node.js",
+        "Express",
+        "TypeScript",
+        "PostgreSQL",
+        "Docker",
+        "AWS",
+        "Swagger",
+        "Bootstrap 5"
+      ]
+    },
+    {
+      "id": "exp-2",
+      "company": "NexuSphere Technologies",
+      "position": "Senior Backend & API Engineer",
+      "startDate": "2020-08",
+      "endDate": "2023-02",
+      "description": "Developed mission-critical financial analytics APIs and real-time dashboard visualization platforms.",
+      "responsibilities": [
+        "Designed and maintained 30+ production REST endpoints with automated Swagger UI documentation.",
+        "Built resilient background worker pipelines processing transactional datasets using Redis queues.",
+        "Collaborated with UI designers to build responsive enterprise dashboards using Bootstrap and vanilla JS.",
+        "Implemented role-based access control (RBAC), JWT token rotation, and rate-limiting middleware."
+      ],
+      "achievements": [
+        "Scaled platform to handle 10x query volume during peak quarterly reporting windows.",
+        "Zero security vulnerabilities reported in two consecutive SOC 2 Type II external audits."
+      ],
+      "technologies": [
+        "Node.js",
+        "MongoDB",
+        "Express",
+        "Redis",
+        "Jest",
+        "OpenAPI",
+        "Bootstrap",
+        "Git"
+      ]
+    },
+    {
+      "id": "exp-3",
+      "company": "Vanguard Interactive Studio",
+      "position": "Full-Stack Web Developer",
+      "startDate": "2018-05",
+      "endDate": "2020-07",
+      "description": "Delivered responsive web portals, progressive web apps, and custom CMS backends for global clients.",
+      "responsibilities": [
+        "Created dynamic, mobile-first responsive interfaces using Bootstrap, HTML5, CSS3, and JavaScript.",
+        "Integrated third-party payment gateways, CRM tools, and social authentication APIs.",
+        "Wrote comprehensive unit and end-to-end test suites ensuring high code quality.",
+        "Optimized web vital scores, delivering sub-second load times and 100/100 Lighthouse performance."
+      ],
+      "achievements": [
+        "Delivered 18 client web applications on schedule and within budget.",
+        "Boosted client conversion rates by an average of 24% via mobile UX redesigns."
+      ],
+      "technologies": [
+        "JavaScript",
+        "Bootstrap 4/5",
+        "Node.js",
+        "Express",
+        "MySQL",
+        "Webpack",
+        "REST API"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-1",
+      "title": "OmniMetrics - Cloud Telemetry & Observability Hub",
+      "description": "An enterprise-grade observability and metrics visualization dashboard with real-time log ingestion, alert dispatchers, and customizable telemetry widgets.",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80",
+      "category": "Full Stack",
+      "technologies": [
+        "Node.js",
+        "Express",
+        "Bootstrap 5",
+        "Chart.js",
+        "PostgreSQL",
+        "Redis"
+      ],
+      "githubUrl": "https://github.com/alexvance-dev/omni-metrics",
+      "liveUrl": "https://omni-metrics-demo.example.com",
+      "featured": true,
+      "features": [
+        "Real-time event streaming via WebSockets with dynamic live charts",
+        "Configurable multi-tenant alerting rules with email & webhook notifications",
+        "OpenAPI/Swagger documented REST API with rate-limiting and JWT auth",
+        "Dark/Light theme support styled with Bootstrap 5 components"
+      ],
+      "createdAt": "2024-08-15"
+    },
+    {
+      "id": "proj-2",
+      "title": "Synthetix AI - Intelligent Code Review Agent",
+      "description": "An AI-powered developer assistant that performs automated static analysis, security vulnerability scanning, and PR summary generation using Large Language Models.",
+      "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80",
+      "category": "AI",
+      "technologies": [
+        "Node.js",
+        "Express",
+        "OpenAI API",
+        "Bootstrap 5",
+        "Docker"
+      ],
+      "githubUrl": "https://github.com/alexvance-dev/synthetix-ai-reviewer",
+      "liveUrl": "https://synthetix-ai.example.com",
+      "featured": true,
+      "features": [
+        "Semantic AST code scanning combined with LLM rationale explanation",
+        "OWASP Top 10 automated vulnerability detection in pull requests",
+        "Interactive Bootstrap modal review inspector with diff highlights",
+        "REST API proxy with token usage tracking and caching"
+      ],
+      "createdAt": "2024-11-02"
+    },
+    {
+      "id": "proj-3",
+      "title": "PayPulse - Global Merchant Checkout Engine",
+      "description": "High-concurrency e-commerce checkout and recurring subscription gateway supporting 40+ currencies, automated invoicing, and dispute management.",
+      "image": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?auto=format&fit=crop&w=800&q=80",
+      "category": "Web",
+      "technologies": [
+        "Node.js",
+        "Express",
+        "Stripe API",
+        "Bootstrap 5",
+        "PostgreSQL"
+      ],
+      "githubUrl": "https://github.com/alexvance-dev/pay-pulse-engine",
+      "liveUrl": "https://paypulse.example.com",
+      "featured": true,
+      "features": [
+        "PCI-DSS compliant hosted payment field integration",
+        "Automated idempotency key management preventing double charging",
+        "Real-time fraud scoring heuristics and 3D Secure 2.0 flow",
+        "Responsive, mobile-optimized checkout form powered by Bootstrap 5"
+      ],
+      "createdAt": "2024-05-20"
+    },
+    {
+      "id": "proj-4",
+      "title": "FitPulse Mobile Companion API & PWA",
+      "description": "A progressive fitness tracker and mobile companion application with offline workouts, GPS route recording, and nutrition telemetry.",
+      "image": "https://images.unsplash.com/photo-1510519138161-5844a4929853?auto=format&fit=crop&w=800&q=80",
+      "category": "Mobile",
+      "technologies": [
+        "JavaScript",
+        "Bootstrap 5",
+        "Node.js",
+        "Express",
+        "Service Workers",
+        "MongoDB"
+      ],
+      "githubUrl": "https://github.com/alexvance-dev/fit-pulse-app",
+      "liveUrl": "https://fitpulse-pwa.example.com",
+      "featured": false,
+      "features": [
+        "Progressive Web App with full offline workout synchronization",
+        "Geolocation-enabled trail tracking with interactive map overlays",
+        "Rest API with JWT refresh token handling and lightweight JSON payloads",
+        "Touch-friendly Bootstrap offcanvas menu and bottom navigation bar"
+      ],
+      "createdAt": "2023-12-10"
+    },
+    {
+      "id": "proj-5",
+      "title": "NeuralDocs - RAG Semantic Search Knowledge Base",
+      "description": "Retrieval-Augmented Generation (RAG) search engine allowing enterprise teams to index, query, and chat with technical documentation and PDF archives.",
+      "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=800&q=80",
+      "category": "AI",
+      "technologies": [
+        "Node.js",
+        "Express",
+        "Vector DB",
+        "Bootstrap 5",
+        "OpenAPI"
+      ],
+      "githubUrl": "https://github.com/alexvance-dev/neural-docs-rag",
+      "liveUrl": "https://neural-docs.example.com",
+      "featured": false,
+      "features": [
+        "Vector embeddings indexing and semantic hybrid search pipeline",
+        "Interactive citations highlighting exact paragraph sources",
+        "Clean Swagger-documented REST API for enterprise CMS integrations",
+        "Responsive search interface with instant keyboard shortcut navigation"
+      ],
+      "createdAt": "2024-03-18"
+    },
+    {
+      "id": "proj-6",
+      "title": "DevSprint - Agile Sprint & Team Velocity Planner",
+      "description": "Collaborative sprint planning and kanban board system featuring real-time cards drag-and-drop, burndown analytics, and GitHub commit linking.",
+      "image": "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?auto=format&fit=crop&w=800&q=80",
+      "category": "Web",
+      "technologies": [
+        "Node.js",
+        "Express",
+        "Bootstrap 5",
+        "WebSockets",
+        "SQLite"
+      ],
+      "githubUrl": "https://github.com/alexvance-dev/dev-sprint-planner",
+      "liveUrl": "https://devsprint.example.com",
+      "featured": false,
+      "features": [
+        "Dynamic Kanban boards with customizable sprint columns",
+        "Automated sprint burndown charts and velocity forecasting",
+        "Granular tag filtering, label search, and member assignees",
+        "Bootstrap 5 modal task inspectors with rich markdown editing"
+      ],
+      "createdAt": "2023-09-04"
+    },
+    {
+      "id": "proj-7",
+      "title": "FleetRoute Mobile Logistics Driver App",
+      "description": "Mobile-responsive driver delivery route optimization system featuring offline parcel scanning and proof-of-delivery signature capture.",
+      "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800&q=80",
+      "category": "Mobile",
+      "technologies": [
+        "JavaScript",
+        "Bootstrap 5",
+        "Node.js",
+        "Express",
+        "HTML5 Canvas"
+      ],
+      "githubUrl": "https://github.com/alexvance-dev/fleet-route-mobile",
+      "liveUrl": "https://fleetroute.example.com",
+      "featured": false,
+      "features": [
+        "Turn-by-turn waypoint ordering algorithm saving 22% fuel consumption",
+        "In-app digital signature capture via HTML5 Canvas modal",
+        "Barcode scanner integration via camera video stream",
+        "Compact mobile UI tailored for one-handed operation"
+      ],
+      "createdAt": "2024-01-28"
+    },
+    {
+      "id": "proj-8",
+      "title": "CloudVault - End-to-End Encrypted File Sharing",
+      "description": "Zero-knowledge file encryption and sharing platform with ephemeral expiring links and client-side AES-256-GCM encryption.",
+      "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&q=80",
+      "category": "Full Stack",
+      "technologies": [
+        "Node.js",
+        "Express",
+        "Bootstrap 5",
+        "WebCrypto API",
+        "S3 Storage"
+      ],
+      "githubUrl": "https://github.com/alexvance-dev/cloud-vault-encrypted",
+      "liveUrl": "https://cloudvault.example.com",
+      "featured": false,
+      "features": [
+        "Browser-side client encryption before file payload transmission",
+        "Password-protected downloadable links with burn-on-read option",
+        "Detailed audit trail and download telemetry logging",
+        "Drag-and-drop file upload zone with Bootstrap progress indicators"
+      ],
+      "createdAt": "2024-07-09"
+    }
+  ],
+  "education": [
+    {
+      "id": "edu-1",
+      "degree": "Master of Science in Computer Science",
+      "institution": "University of California, Berkeley",
+      "fieldOfStudy": "Software Systems & Cloud Architecture",
+      "startDate": "2016-09",
+      "endDate": "2018-05",
+      "grade": "GPA: 3.92 / 4.0",
+      "description": "Specialized in distributed systems, asynchronous event processing, and operating system virtualization.",
+      "activities": [
+        "Graduate Research Assistant - Cloud Systems Laboratory",
+        "Published paper on lightweight container orchestration heuristics",
+        "Teaching Assistant for CS 162: Operating Systems and System Programming"
+      ]
+    },
+    {
+      "id": "edu-2",
+      "degree": "Bachelor of Science in Software Engineering",
+      "institution": "San Jose State University",
+      "fieldOfStudy": "Computer & Software Systems",
+      "startDate": "2012-09",
+      "endDate": "2016-06",
+      "grade": "Magna Cum Laude (GPA: 3.86 / 4.0)",
+      "description": "Comprehensive coursework in data structures, algorithms, computer networks, database management, and human-computer interaction.",
+      "activities": [
+        "President of the ACM Student Chapter (2015-2016)",
+        "Winner of SJSU Annual Hackathon 2015",
+        "Dean's Honor List for 7 consecutive semesters"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "id": "cert-1",
+      "name": "AWS Certified Solutions Architect – Professional",
+      "issuer": "Amazon Web Services (AWS)",
+      "issueDate": "2023-04",
+      "expiryDate": "2026-04",
+      "credentialId": "AWS-PSA-9204128",
+      "credentialUrl": "https://aws.amazon.com/verification",
+      "badgeIcon": "bi-cloud-check-fill"
+    },
+    {
+      "id": "cert-2",
+      "name": "Certified Kubernetes Administrator (CKA)",
+      "issuer": "Cloud Native Computing Foundation (CNCF)",
+      "issueDate": "2022-11",
+      "expiryDate": "2025-11",
+      "credentialId": "LF-CKA-773129",
+      "credentialUrl": "https://www.cncf.io/certification/cka/",
+      "badgeIcon": "bi-boxes"
+    },
+    {
+      "id": "cert-3",
+      "name": "MongoDB Certified Developer Associate",
+      "issuer": "MongoDB University",
+      "issueDate": "2022-02",
+      "expiryDate": "2025-02",
+      "credentialId": "MDB-DEV-441098",
+      "credentialUrl": "https://learn.mongodb.com/",
+      "badgeIcon": "bi-database-fill-check"
+    },
+    {
+      "id": "cert-4",
+      "name": "Meta Certified Front-End Developer",
+      "issuer": "Meta / Coursera",
+      "issueDate": "2021-09",
+      "expiryDate": "Permanent",
+      "credentialId": "META-FED-883201",
+      "credentialUrl": "https://coursera.org/verify/meta-frontend",
+      "badgeIcon": "bi-patch-check-fill"
+    }
+  ],
+  "achievements": [
+    {
+      "id": "ach-1",
+      "title": "1st Place Winner - Global Cloud Native Hackathon 2024",
+      "category": "Hackathon",
+      "year": "2024",
+      "description": "Engineered an AI-augmented Kubernetes pod auto-scaler based on real-time HTTP traffic forecasting among 350+ international developer teams.",
+      "icon": "bi-trophy-fill",
+      "link": "https://hackathon.example.com/winners/2024"
+    },
+    {
+      "id": "ach-2",
+      "title": "Top Open Source Contributor Award",
+      "category": "Open Source",
+      "year": "2023",
+      "description": "Recognized as a leading contributor to developer tooling libraries with over 5,000 GitHub stars and 100k+ monthly npm downloads.",
+      "icon": "bi-github",
+      "link": "https://github.com/alexvance-dev"
+    },
+    {
+      "id": "ach-3",
+      "title": "Published Technical Author - O'Reilly Distributed Systems",
+      "category": "Publication",
+      "year": "2023",
+      "description": "Co-authored practical guide on 'Resilient REST & gRPC API Design at Enterprise Scale' featured on major tech publications.",
+      "icon": "bi-journal-bookmark-fill",
+      "link": "https://technical-publishing.example.com/resilient-apis"
+    },
+    {
+      "id": "ach-4",
+      "title": "Keynote Speaker - Silicon Valley Web Developers Summit",
+      "category": "Award",
+      "year": "2022",
+      "description": "Delivered keynote presentation on 'Building High-Performance Frontend Architectures with Modern CSS and Bootstrap 5' to 1,200+ attendees.",
+      "icon": "bi-mic-fill",
+      "link": "https://svwebdev.example.com/2022/alex-vance"
+    }
+  ],
+  "socialLinks": [
+    {
+      "id": "soc-1",
+      "platform": "github",
+      "url": "https://github.com/alexvance-dev",
+      "icon": "bi-github",
+      "displayName": "GitHub"
+    },
+    {
+      "id": "soc-2",
+      "platform": "linkedin",
+      "url": "https://linkedin.com/in/alexvance-dev",
+      "icon": "bi-linkedin",
+      "displayName": "LinkedIn"
+    },
+    {
+      "id": "soc-3",
+      "platform": "twitter",
+      "url": "https://x.com/alexvance_dev",
+      "icon": "bi-twitter-x",
+      "displayName": "X / Twitter"
+    },
+    {
+      "id": "soc-4",
+      "platform": "email",
+      "url": "mailto:sharon.sofiya.dev@example.com",
+      "icon": "bi-envelope-at-fill",
+      "displayName": "Email"
+    }
+  ],
+  "github": {
+    "username": "alexvance-dev",
+    "name": "Sharon Sofiya",
+    "bio": "Senior Full-Stack Architect | Open Source & Cloud Enthusiast",
+    "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80",
+    "profileUrl": "https://github.com/alexvance-dev",
+    "publicRepos": 38,
+    "followers": 1240,
+    "following": 185,
+    "totalStars": 4850,
+    "pinnedRepos": [
+      {
+        "id": "gh-repo-1",
+        "name": "omni-metrics",
+        "description": "Enterprise observability dashboard with real-time log ingestion and OpenAPI docs.",
+        "language": "JavaScript",
+        "languageColor": "#f1e05a",
+        "stars": 1420,
+        "forks": 215,
+        "url": "https://github.com/alexvance-dev/omni-metrics",
+        "updatedAt": "2024-09-12"
+      },
+      {
+        "id": "gh-repo-2",
+        "name": "synthetix-ai-reviewer",
+        "description": "AI-powered automated pull request reviewer and static security scanner.",
+        "language": "TypeScript",
+        "languageColor": "#3178c6",
+        "stars": 2190,
+        "forks": 340,
+        "url": "https://github.com/alexvance-dev/synthetix-ai-reviewer",
+        "updatedAt": "2024-11-04"
+      },
+      {
+        "id": "gh-repo-3",
+        "name": "bootstrap5-portfolio-kit",
+        "description": "Modern full-stack developer portfolio template built with Bootstrap 5 and Express REST API.",
+        "language": "HTML / JS",
+        "languageColor": "#e34c26",
+        "stars": 760,
+        "forks": 130,
+        "url": "https://github.com/alexvance-dev/bootstrap5-portfolio-kit",
+        "updatedAt": "2024-10-01"
+      },
+      {
+        "id": "gh-repo-4",
+        "name": "cloud-vault-crypto",
+        "description": "Zero-knowledge end-to-end encrypted file sharing engine with WebCrypto.",
+        "language": "JavaScript",
+        "languageColor": "#f1e05a",
+        "stars": 480,
+        "forks": 82,
+        "url": "https://github.com/alexvance-dev/cloud-vault-crypto",
+        "updatedAt": "2024-08-22"
+      }
+    ]
+  },
+  "contactMessages": [
+    {
+      "id": "msg-1",
+      "name": "Elena Rostova",
+      "email": "elena.rostova@techventure.io",
+      "subject": "Senior Architect Contract Role",
+      "message": "Hi Sharon, we were thoroughly impressed by your work on distributed observability systems. We would love to discuss a consulting engagement for our infrastructure redesign.",
+      "createdAt": "2024-10-05T10:30:00.000Z",
+      "read": true
+    },
+    {
+      "id": "cont-b9a6e374",
+      "createdAt": "2026-10-08T08:46:59.650Z",
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "subject": "Collaboration Opportunity",
+      "message": "Hello Sharon, I would love to talk about our engineering project!",
+      "read": false
+    },
+    {
+      "id": "cont-ee072d9d",
+      "createdAt": "2026-10-08T08:55:34.624Z",
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "subject": "Collaboration Opportunity",
+      "message": "Hello Sharon, I would love to talk about our engineering project!",
+      "read": false
+    },
+    {
+      "id": "cont-05d28dcf",
+      "createdAt": "2026-10-09T04:13:56.403Z",
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "subject": "Collaboration Opportunity",
+      "message": "Hello Alex, I would love to talk about our engineering project!",
+      "read": false
+    }
+  ]
+}

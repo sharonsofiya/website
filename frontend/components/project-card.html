@@ -1,0 +1,31 @@
+<!-- Reusable Project Card Template (Rendered dynamically by App.js) -->
+<div class="portfolio-card shadow-sm">
+  <div class="project-card-img-wrap">
+    <img src="{{image}}" alt="{{title}}" class="project-card-img">
+    <span class="badge bg-primary project-category-badge rounded-pill shadow-sm">
+      {{category}}
+    </span>
+  </div>
+  <div class="p-4 d-flex flex-column flex-grow-1">
+    <h5 class="fw-bold mb-2 text-truncate">{{title}}</h5>
+    <p class="text-secondary small mb-3 flex-grow-1">{{description}}</p>
+
+    <div class="d-flex flex-wrap gap-1 mb-4">
+      <!-- Technologies Badges -->
+    </div>
+
+    <div class="d-flex align-items-center justify-content-between pt-3 border-top mt-auto">
+      <button class="btn btn-sm btn-outline-primary view-project-btn" data-id="{{id}}">
+        <i class="bi bi-eye me-1"></i> Details
+      </button>
+      <div class="d-flex gap-2">
+        <a href="{{githubUrl}}" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-secondary" title="View GitHub">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="{{liveUrl}}" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary" title="Launch Demo">
+          <i class="bi bi-box-arrow-up-right"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
