@@ -14,7 +14,7 @@ const config = {
   ADMIN_USERNAME: process.env.ADMIN_USERNAME || 'admin',
   ADMIN_PASSWORD: process.env.ADMIN_PASSWORD || 'admin123',
   ADMIN_KEY: process.env.ADMIN_KEY || 'agy-portfolio-admin-supersecret-token',
-  GITHUB_USERNAME: process.env.GITHUB_USERNAME || 'alexvance-dev',
+  GITHUB_USERNAME: process.env.GITHUB_USERNAME || 'sharonsofiya',
   CORS_ORIGIN: process.env.CORS_ORIGIN || '*'
 };
 

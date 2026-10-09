@@ -253,7 +253,7 @@ const seedData = {
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80",
       category: "Full Stack",
       technologies: ["Node.js", "Express", "Bootstrap 5", "Chart.js", "PostgreSQL", "Redis"],
-      githubUrl: "https://github.com/alexvance-dev/omni-metrics",
+      githubUrl: "https://github.com/sharonsofiya/omni-metrics",
       liveUrl: "https://omni-metrics-demo.example.com",
       featured: true,
       features: [
@@ -271,7 +271,7 @@ const seedData = {
       image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80",
       category: "AI",
       technologies: ["Node.js", "Express", "OpenAI API", "Bootstrap 5", "Docker"],
-      githubUrl: "https://github.com/alexvance-dev/synthetix-ai-reviewer",
+      githubUrl: "https://github.com/sharonsofiya/synthetix-ai-reviewer",
       liveUrl: "https://synthetix-ai.example.com",
       featured: true,
       features: [
@@ -289,7 +289,7 @@ const seedData = {
       image: "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?auto=format&fit=crop&w=800&q=80",
       category: "Web",
       technologies: ["Node.js", "Express", "Stripe API", "Bootstrap 5", "PostgreSQL"],
-      githubUrl: "https://github.com/alexvance-dev/pay-pulse-engine",
+      githubUrl: "https://github.com/sharonsofiya/pay-pulse-engine",
       liveUrl: "https://paypulse.example.com",
       featured: true,
       features: [
@@ -307,7 +307,7 @@ const seedData = {
       image: "https://images.unsplash.com/photo-1510519138161-5844a4929853?auto=format&fit=crop&w=800&q=80",
       category: "Mobile",
       technologies: ["JavaScript", "Bootstrap 5", "Node.js", "Express", "Service Workers", "MongoDB"],
-      githubUrl: "https://github.com/alexvance-dev/fit-pulse-app",
+      githubUrl: "https://github.com/sharonsofiya/fit-pulse-app",
       liveUrl: "https://fitpulse-pwa.example.com",
       featured: false,
       features: [
@@ -325,7 +325,7 @@ const seedData = {
       image: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=800&q=80",
       category: "AI",
       technologies: ["Node.js", "Express", "Vector DB", "Bootstrap 5", "OpenAPI"],
-      githubUrl: "https://github.com/alexvance-dev/neural-docs-rag",
+      githubUrl: "https://github.com/sharonsofiya/neural-docs-rag",
       liveUrl: "https://neural-docs.example.com",
       featured: false,
       features: [
@@ -343,7 +343,7 @@ const seedData = {
       image: "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?auto=format&fit=crop&w=800&q=80",
       category: "Web",
       technologies: ["Node.js", "Express", "Bootstrap 5", "WebSockets", "SQLite"],
-      githubUrl: "https://github.com/alexvance-dev/dev-sprint-planner",
+      githubUrl: "https://github.com/sharonsofiya/dev-sprint-planner",
       liveUrl: "https://devsprint.example.com",
       featured: false,
       features: [
@@ -361,7 +361,7 @@ const seedData = {
       image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800&q=80",
       category: "Mobile",
       technologies: ["JavaScript", "Bootstrap 5", "Node.js", "Express", "HTML5 Canvas"],
-      githubUrl: "https://github.com/alexvance-dev/fleet-route-mobile",
+      githubUrl: "https://github.com/sharonsofiya/fleet-route-mobile",
       liveUrl: "https://fleetroute.example.com",
       featured: false,
       features: [
@@ -379,7 +379,7 @@ const seedData = {
       image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&q=80",
       category: "Full Stack",
       technologies: ["Node.js", "Express", "Bootstrap 5", "WebCrypto API", "S3 Storage"],
-      githubUrl: "https://github.com/alexvance-dev/cloud-vault-encrypted",
+      githubUrl: "https://github.com/sharonsofiya/cloud-vault-encrypted",
       liveUrl: "https://cloudvault.example.com",
       featured: false,
       features: [
@@ -428,7 +428,7 @@ const seedData = {
   certifications: [
     {
       id: "cert-1",
-      name: "AWS Certified Solutions Architect – Professional",
+      name: "AWS Certified Solutions Architect â€“ Professional",
       issuer: "Amazon Web Services (AWS)",
       issueDate: "2023-04",
       expiryDate: "2026-04",
@@ -485,7 +485,7 @@ const seedData = {
       year: "2023",
       description: "Recognized as a leading contributor to developer tooling libraries with over 5,000 GitHub stars and 100k+ monthly npm downloads.",
       icon: "bi-github",
-      link: "https://github.com/alexvance-dev"
+      link: "https://github.com/sharonsofiya"
     },
     {
       id: "ach-3",
@@ -511,21 +511,21 @@ const seedData = {
     {
       id: "soc-1",
       platform: "github",
-      url: "https://github.com/alexvance-dev",
+      url: "https://github.com/sharonsofiya",
       icon: "bi-github",
       displayName: "GitHub"
     },
     {
       id: "soc-2",
       platform: "linkedin",
-      url: "https://linkedin.com/in/alexvance-dev",
+      url: "https://linkedin.com/in/sharonsofiya",
       icon: "bi-linkedin",
       displayName: "LinkedIn"
     },
     {
       id: "soc-3",
       platform: "twitter",
-      url: "https://x.com/alexvance_dev",
+      url: "https://x.com/sharonsofiya",
       icon: "bi-twitter-x",
       displayName: "X / Twitter"
     },
@@ -539,11 +539,11 @@ const seedData = {
   ],
 
   github: {
-    username: "alexvance-dev",
+    username: "sharonsofiya",
     name: "Sharon Sofiya",
     bio: "Senior Full-Stack Architect | Open Source & Cloud Enthusiast",
     avatarUrl: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80",
-    profileUrl: "https://github.com/alexvance-dev",
+    profileUrl: "https://github.com/sharonsofiya",
     publicRepos: 38,
     followers: 1240,
     following: 185,
@@ -551,14 +551,14 @@ const seedData = {
     pinnedRepos: [
       {
         id: "gh-repo-1",
-        name: "omni-metrics",
-        description: "Enterprise observability dashboard with real-time log ingestion and OpenAPI docs.",
+        name: "website",
+        description: "Full-stack personal developer portfolio built with Bootstrap 5 and Express REST API documented with Swagger/OpenAPI.",
         language: "JavaScript",
         languageColor: "#f1e05a",
-        stars: 1420,
-        forks: 215,
-        url: "https://github.com/alexvance-dev/omni-metrics",
-        updatedAt: "2024-09-12"
+        stars: 1,
+        forks: 0,
+        url: "https://github.com/sharonsofiya/website",
+        updatedAt: "2026-10-09"
       },
       {
         id: "gh-repo-2",
@@ -568,7 +568,7 @@ const seedData = {
         languageColor: "#3178c6",
         stars: 2190,
         forks: 340,
-        url: "https://github.com/alexvance-dev/synthetix-ai-reviewer",
+        url: "https://github.com/sharonsofiya/synthetix-ai-reviewer",
         updatedAt: "2024-11-04"
       },
       {
@@ -579,7 +579,7 @@ const seedData = {
         languageColor: "#e34c26",
         stars: 760,
         forks: 130,
-        url: "https://github.com/alexvance-dev/bootstrap5-portfolio-kit",
+        url: "https://github.com/sharonsofiya/bootstrap5-portfolio-kit",
         updatedAt: "2024-10-01"
       },
       {
@@ -590,7 +590,7 @@ const seedData = {
         languageColor: "#f1e05a",
         stars: 480,
         forks: 82,
-        url: "https://github.com/alexvance-dev/cloud-vault-crypto",
+        url: "https://github.com/sharonsofiya/cloud-vault-crypto",
         updatedAt: "2024-08-22"
       }
     ]
@@ -610,3 +610,4 @@ const seedData = {
 };
 
 module.exports = seedData;
+

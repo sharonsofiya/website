@@ -1,4 +1,4 @@
-const config = require('../config/env');
+﻿const config = require('../config/env');
 
 const swaggerDefinition = {
   openapi: '3.0.3',
@@ -191,7 +191,7 @@ const swaggerDefinition = {
             items: { type: 'string' },
             example: ['Node.js', 'Express', 'Bootstrap 5', 'PostgreSQL']
           },
-          githubUrl: { type: 'string', format: 'uri', example: 'https://github.com/alexvance-dev/omni-metrics' },
+          githubUrl: { type: 'string', format: 'uri', example: 'https://github.com/sharonsofiya/omni-metrics' },
           liveUrl: { type: 'string', format: 'uri', example: 'https://omni-metrics-demo.example.com' },
           featured: { type: 'boolean', example: true },
           features: {
@@ -226,7 +226,7 @@ const swaggerDefinition = {
         required: ['name', 'issuer', 'issueDate'],
         properties: {
           id: { type: 'string', example: 'cert-1' },
-          name: { type: 'string', example: 'AWS Certified Solutions Architect – Professional' },
+          name: { type: 'string', example: 'AWS Certified Solutions Architect â€“ Professional' },
           issuer: { type: 'string', example: 'Amazon Web Services (AWS)' },
           issueDate: { type: 'string', example: '2023-04' },
           expiryDate: { type: 'string', example: '2026-04' },
@@ -266,7 +266,7 @@ const swaggerDefinition = {
         properties: {
           id: { type: 'string', example: 'soc-1' },
           platform: { type: 'string', example: 'github' },
-          url: { type: 'string', example: 'https://github.com/alexvance-dev' },
+          url: { type: 'string', example: 'https://github.com/sharonsofiya' },
           icon: { type: 'string', example: 'bi-github' },
           displayName: { type: 'string', example: 'GitHub' }
         }
@@ -274,11 +274,11 @@ const swaggerDefinition = {
       GitHubData: {
         type: 'object',
         properties: {
-          username: { type: 'string', example: 'alexvance-dev' },
+          username: { type: 'string', example: 'sharonsofiya' },
           name: { type: 'string', example: 'Sharon Sofiya' },
           bio: { type: 'string', example: 'Senior Full-Stack Architect' },
           avatarUrl: { type: 'string', example: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb' },
-          profileUrl: { type: 'string', example: 'https://github.com/alexvance-dev' },
+          profileUrl: { type: 'string', example: 'https://github.com/sharonsofiya' },
           publicRepos: { type: 'integer', example: 38 },
           followers: { type: 'integer', example: 1240 },
           following: { type: 'integer', example: 185 },
@@ -295,7 +295,7 @@ const swaggerDefinition = {
                 languageColor: { type: 'string', example: '#f1e05a' },
                 stars: { type: 'integer', example: 1420 },
                 forks: { type: 'integer', example: 215 },
-                url: { type: 'string', example: 'https://github.com/alexvance-dev/omni-metrics' },
+                url: { type: 'string', example: 'https://github.com/sharonsofiya/omni-metrics' },
                 updatedAt: { type: 'string', example: '2024-09-12' }
               }
             }
@@ -881,3 +881,4 @@ const swaggerDefinition = {
 };
 
 module.exports = swaggerDefinition;
+
